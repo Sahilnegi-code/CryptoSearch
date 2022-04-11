@@ -53,7 +53,7 @@ const classes = useStyles();
    
         <div className = {classes.App} >
         < Container  >
-        <Header user= {user } />
+        <Header  />
        
         <TextField
       label="Search For a Crypto Currency..."
