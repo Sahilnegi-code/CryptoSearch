@@ -29,7 +29,7 @@ const useStyles = makeStyles
 const Homepage = () => {
 const [coins, setCoins] = useState([]);
 const [search, setsearch] = useState("");
-const [user,setuser] = useState(null);
+
 const [loading,setloading] = useState(false);
 const fetchCoins = async () => {
   setloading(true);
