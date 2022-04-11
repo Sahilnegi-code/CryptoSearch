@@ -39,14 +39,7 @@ setloading(false);
 };
 useEffect(() => {
 fetchCoins();
-onAuthStateChanged(auth,user =>{
-  if(user){
-    setuser(user);
-  }
-  else{
-    setuser("");
-  }
-})
+
 }, []);
 
 const handleSearch = coins.filter((coin)=>{
